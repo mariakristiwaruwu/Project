@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 100px;
+  background-color: #91068f;
+}
+.brand img {
+  padding-left: 30px;
+  color: white;
+  width: 50px;
+  height: 40px;
+}
+.print {
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.gr {
+  display: flex;
+  justify-content: center;
+}
+
+.bt button {
+  margin-top: 20px;
+  background-color: white;
+  font-size: 25px;
+  border: 5px solid rgb(164, 89, 209);
+  border-radius: 50px;
+  color: black;
+  height: 50px;
+  width: 400px;
+  box-shadow: -10px 0px 0px rgba(56, 51, 59, 0.142);
+}
+.bts button {
+  height: 50px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: rgb(164, 89, 209);
+  font-size: 25px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  box-shadow: -10px 0px 0px rgba(56, 51, 59, 0.142);
+}
+.wrappers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 20px;
+}
+.wrappersr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 20px;
+  margin-left: 70px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.cont {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.conta {
+  display: flex;
+  justify-content: center;
+}
+.dar {
+  font-size: 20px;
+}
+.dars {
+  font-size: 20px;
+  margin-left: 200px;
+}
+.produk {
+  font-size: 20px;
+}
+.one ion-icon {
+  padding-top: 3px;
+  font-size: 25px;
+}
+.co {
+  margin-bottom: 50px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+.bu button {
+  background-color: rgb(191, 114, 235);
+  font-size: 25px;
+  width: 500px;
+  border: 1px solid rgb(193, 109, 241);
+  color: white;
+}
+.but {
+  margin-left: 50px;
+}
+.but button {
+  background-color: rgb(160, 160, 7);
+  font-size: 25px;
+  width: 500px;
+  border: none;
+  color: white;
+  border: 1px solid rgb(137, 137, 7);
+}
+.prg {
+  margin: auto;
+  background-color: white;
+  width: 1050px;
+  height: 140px;
+  box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.349);
+  border: 1px solid black;
+}
+.coll {
+  padding-top: 10px;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+.collsat {
+  justify-content: center;
+  display: flex;
+  margin-top: 2px;
+}
+.colldu {
+  margin-top: 2px;
+  justify-content: center;
+  display: flex;
+}
+.busi button {
+  background-color: white;
+  font-size: 25px;
+  width: 300px;
+  border: none;
+  color: white;
+}
+.butsi button {
+  text-align: left;
+  font-size: 25px;
+  width: 300px;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+.butsii button {
+  text-align: left;
+  font-size: 25px;
+  width: 300px;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+.butsiii button {
+  text-align: left;
+  font-size: 25px;
+  width: 300px;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+.butst button {
+  background-color: purple;
+  font-size: 25px;
+  width: 300px;
+  color: white;
+  margin-left: 50px;
+  text-align: right;
+  padding-right: 10px;
+}
+footer {
+  margin-top: auto;
+}
+.contai {
+  width: 100%;
+  height: 100px;
+}
+.box {
+  background-color: rgba(165, 89, 209, 0.779);
+  display: flex;
+  justify-content: center;
+}
+.box > img {
+  padding: 20px 50px 0px 50px;
+  width: 50px;
+}
+.box p {
+  padding: 5px 38px 20px 38px;
+  font-size: 20px;
+}
