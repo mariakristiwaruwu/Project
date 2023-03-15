@@ -29,7 +29,7 @@
   border-radius: 10px;
   box-shadow: -5px 1px 10px rgb(237, 74, 237);
 }
-.sam img {
+.sam a img {
   padding-top: 4px;
   width: 20px;
   height: 20px;
@@ -134,7 +134,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-.box > img {
+.box > a > img {
   padding: 20px 50px 0px 50px;
   width: 50px;
 }

@@ -30,7 +30,7 @@
   width: 50px;
   height: 40px;
 }
-.icon {
+.icon > a > ion-icon {
   text-align: center;
   color: white;
   font-size: 50px;
@@ -110,7 +110,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-.box > img {
+.box > a > img {
   padding: 20px 50px 0px 50px;
   width: 50px;
 }

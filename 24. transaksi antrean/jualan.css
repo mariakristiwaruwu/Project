@@ -10,7 +10,7 @@
   height: 100px;
   background-color: #91068f;
 }
-.brand img {
+.brand a img {
   padding-left: 30px;
   color: white;
   width: 50px;
@@ -25,7 +25,6 @@
   display: flex;
   justify-content: center;
 }
-
 .bt button {
   margin-top: 20px;
   background-color: white;
@@ -189,7 +188,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-.box > img {
+.box > a > img {
   padding: 20px 50px 0px 50px;
   width: 50px;
 }

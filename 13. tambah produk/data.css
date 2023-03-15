@@ -21,17 +21,18 @@
   font-size: 30px;
   color: white;
 }
-.navigation > li > img {
+.navigation > li > a > img {
   padding-left: 30px;
   color: white;
   width: 50px;
   height: 40px;
 }
-.icon {
+.icon > a {
   text-align: center;
   color: white;
   font-size: 20px;
   padding-right: 30px;
+  text-decoration: none;
 }
 body {
   display: flex;
@@ -126,7 +127,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-.box > img {
+.box > a > img {
   padding: 20px 50px 0px 50px;
   width: 50px;
 }
