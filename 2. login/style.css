@@ -51,5 +51,8 @@ footer {
   width: 25%;
   border: none;
   border-radius: 10px;
+}
+.btn a {
+  text-decoration: none;
   color: white;
 }

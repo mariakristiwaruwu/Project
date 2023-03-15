@@ -21,6 +21,9 @@
   font-size: 30px;
   color: white;
 }
+.navigation > li > a {
+  padding-left: 10px;
+}
 .navigation > li > img {
   padding-left: 30px;
   color: white;
