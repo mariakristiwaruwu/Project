@@ -31,19 +31,14 @@ body {
   display: flex;
   justify-content: center;
 }
-.wrappersr {
-  display: flex;
-  align-items: center;
+.wrappersr input {
+  font-size: 20px;
 }
 .wrappers {
   align-items: center;
   justify-content: center;
   width: 200px;
   height: 20px;
-}
-.one ion-icon {
-  padding-top: 3px;
-  font-size: 25px;
 }
 .produk {
   font-size: 20px;
