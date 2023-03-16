@@ -89,13 +89,13 @@ body {
   margin-bottom: 10px;
 }
 .empat {
-  color: rgb(97, 89, 95);
-  font-size: 25px;
-  text-align: right;
-  width: 250px;
-  border: 1px solid rgb(191, 87, 156);
   margin-bottom: 10px;
   padding-right: 5px;
+}
+.empat input {
+  text-align: right;
+  width: 200px;
+  font-size: 22px;
 }
 .lima {
   color: rgb(97, 89, 95);
