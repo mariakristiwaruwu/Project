@@ -5,46 +5,71 @@
 .wrapper {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: space-between;
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-color: #91068f;
 }
-.brand img {
-  padding-left: 30px;
-  color: white;
-  width: 50px;
-  height: 40px;
-}
-.print {
-  color: white;
-  font-size: 30px;
+.ber h1 {
   padding-left: 20px;
+  font-size: 40px;
+  color: white;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation > li {
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
+.navigation > li > img {
+  padding-right: 20px;
+  padding-left: 5px;
+  color: white;
+  width: 40px;
+  height: 40px;
 }
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-.tbl {
+.logo {
   text-align: center;
-  padding-top: 50px;
+  margin-top: -70px;
 }
-.btn {
-  background-color: rgb(211, 170, 236);
-  font-size: 20px;
-  padding: 20px 30px;
-  width: 500px;
-  border: none;
-  border-radius: 50px;
-  color: white;
+.logo img {
+  width: 400px;
+  height: 400px;
 }
-.kt {
-  padding-top: 30px;
-  margin-left: 32rem;
+.main {
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
 }
-.kt p {
-  font-size: 25px;
+.main img {
+  width: 200px;
+  height: 150px;
+}
+.mains img {
+  width: 200px;
+  height: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.kata {
+  display: flex;
+  justify-content: center;
+}
+.kata p {
+  font-size: 30px;
+  color: #91068f;
+}
+.katas p {
+  padding-left: 225px;
+  padding-right: 225px;
 }
 footer {
   margin-top: auto;
@@ -65,48 +90,4 @@ footer {
 .box p {
   padding: 5px 38px 20px 38px;
   font-size: 20px;
-}
-.navigation {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-  display: flex;
-  margin-left: 30px;
-}
-.navigation p {
-  margin-left: 65rem;
-}
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -15%;
-}
-.logo > img {
-  padding: 20px 50px 0px 50px;
-  width: 20rem;
-}
-.contain {
-  width: 100%;
-  height: 100px;
-}
-
-.main > img {
-  padding: 20px 50px 0px 50px;
-  margin-left: 70px;
-  margin-top: -80px;
-  width: 15rem;
-}
-
-.kata {
-  margin-right: 320px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: purple;
-}
-
-.kata p {
-  margin-left: 350px;
 }

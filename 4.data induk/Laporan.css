@@ -1,94 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    width: 100%;
-    height: 80px;
-    background-color: #91068f;
-  }
-  .brand img {
-    padding-left: 30px;
-    color: white;
-    width: 50px;
-    height: 40px;
-  }
-  .print {
-    color: white;
-    font-size: 30px;
-    padding-left: 20px;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  .tbl {
-    text-align: center;
-    padding-top: 50px;
-  }
-  .btn {
-    background-color: rgb(211, 170, 236);
-    font-size: 20px;
-    padding: 20px 30px;
-    width: 500px;
-    border: none;
-    border-radius: 50px;
-    color: white;
-  }
-  .kt {
-    padding-top: 30px;
-    margin-left: 32rem;
-  }
-  .kt p {
-    font-size: 25px;
-  }
-  footer {
-    margin-top: auto;
-  }
-  .contain {
-    width: 100%;
-    height: 100px;
-  }
-  .box {
-    background-color: rgba(165, 89, 209, 0.779);
-    display: flex;
-    justify-content: center;
-  }
-  .box > img {
-    padding: 20px 50px 0px 50px;
-    width: 50px;
-  }
-  .box p {
-    padding: 5px 38px 20px 38px;
-    font-size: 20px;
-  }
-  .navigation {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-  }
-.logo {
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -5%;
+  margin: 0;
+  padding: 0;
 }
-.logo > img {
-  padding: 20px 50px 0px 50px;
-  width: 20rem;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 100px;
+  background-color: #91068f;
+}
+.brand img {
+  padding-left: 30px;
+  color: white;
+  width: 50px;
+  height: 40px;
+}
+.print {
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.main img {
+  width: 200px;
+  height: 200px;
+}
+.mains img {
+  width: 200px;
+  height: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.kata {
+  display: flex;
+  justify-content: center;
+}
+.kata p {
+  font-size: 30px;
+  color: #91068f;
+}
+.katas p {
+  padding-left: 275px;
+  padding-right: 275px;
+}
+footer {
+  margin-top: auto;
 }
 .contain {
   width: 100%;
   height: 100px;
 }
-
-.main > img {
+.box {
+  background-color: rgba(165, 89, 209, 0.779);
+  display: flex;
+  justify-content: center;
+}
+.box > img {
   padding: 20px 50px 0px 50px;
-  margin-left: 70px;
-  margin-top: -80px;
-  width: 15rem;
+  width: 50px;
+}
+.box p {
+  padding: 5px 38px 20px 38px;
+  font-size: 20px;
 }
