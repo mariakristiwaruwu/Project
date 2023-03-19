@@ -26,41 +26,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-.main {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-}
-.main img {
-  width: 200px;
-  height: 200px;
-}
-.mains img {
-  width: 200px;
-  height: 200px;
-  padding-left: 130px;
-  padding-right: 130px;
-}
-.mainss img {
-  width: 200px;
-  height: 200px;
-  padding-right: 130px;
-}
-.kata {
-  display: flex;
-  justify-content: center;
-}
-.kata p {
-  font-size: 30px;
-  color: #91068f;
-}
-.katas p {
-  padding-left: 220px;
-  padding-right: 240px;
-}
-.katass p {
-  padding-right: 220px;
-}
 footer {
   margin-top: auto;
 }
