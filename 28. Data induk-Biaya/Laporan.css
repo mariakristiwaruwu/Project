@@ -1,227 +1,186 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-main{
-  background-color: #f5e8f4;
+  margin: 0;
+  padding: 0;
 }
-  .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    width: 100%;
-    height: 80px;
-    background-color: #91068f;
-  }
-  .brand img {
-    padding-left: 30px;
-    color: white;
-    width: 50px;
-    height: 40px;
-  }
-  .print {
-    color: white;
-    font-size: 30px;
-    padding-left: 20px;
-  }s
-  .sl {
-    color: white;
-    font-size: 30px;
-    padding-left: 20px;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  .wrappers {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 20px;
-  }
-  .wrappersr {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 20px;
-    margin-left: 200px;
-  }
-  .cont {
-    justify-content: center;
-    display: flex;
-    margin-top: 20px;
-  }
-  .conta {
-    display: flex;
-    justify-content: center;
-  }
-  .dar {
-    font-size: 20px;
-  }
-  .dars {
-    font-size: 20px;
-    margin-left: 300px;
-  }
-  .produk {
-    font-size: 20px;
-  }
-  .one ion-icon {
-    padding-top: 3px;
-    font-size: 25px;
-  }
-  .bt {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .bt button {
-    background-color: #91068f;
-    font-size: 20px;
-    height: 40px;
-    width: 10%;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    margin-left: 60%;
-  }
-  .co {
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
-    margin-right: 180px;
-    margin-left: 200px;
-  }
-  .bu button {
-    background-color: rgb(191, 114, 235);
-    font-size: 25px;
-    width: 500px;
-    border: 1px solid rgb(193, 109, 241);
-    color: white;
-    margin-right: 100px;
-  }
-  .but {
-    margin-left: 50px;
-  }
-  .but button {
-    background-color: rgb(160, 160, 7);
-    font-size: 25px;
-    width: 500px;
-    border: none;
-    color: white;
-    border: 1px solid rgb(137, 137, 7);
-  }
-  .bus button {
-    background-color: rgb(113, 4, 113);
-    font-size: 25px;
-    width: 100px;
-    border: none;
-    color: white;
-  }
-  .buts {
-    margin-left: 50px;
-
-  }
-  .buts button {
-    background-color: rgb(113, 4, 113);
-    font-size: 25px;
-    width: 250px;
-    border: none;
-    color: white;
-  }
-  .bs {
-    margin-left: 50px;
-  }
-  .bs button {
-    background-color: rgb(113, 4, 113);
-    font-size: 25px;
-    width: 600px;
-    border: none;
-    color: white;
-  }
-  .kl button {
-    background-color: rgb(245, 244, 245);
-    font-size: 25px;
-    width: 350px;
-    border: none;
-    color: rgb(32, 30, 30);
-  }
-  .kli {
-    margin-left: 50px;
-  }
-  .kli button {
-    background-color: rgb(245, 244, 245);
-    font-size: 25px;
-    width: 150px;
-    border: none;
-    color: black;
-  }
-  .bsi {
-    margin-left: 50px;
-  }
-  .bsi button {
-    background-color: rgb(245, 244, 245);
-    font-size: 25px;
-    width: 200px;
-    border: none;
-    color: black;
-  }
-  hr {
-    margin-top: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 84%;
-  }
-  .busi button {
-    background-color: white;
-    font-size: 25px;
-    width: 350px;
-    border: none;
-    color: white;
-  }
-  .butsi button {
-    font-size: 25px;
-    width: 800px;
-    margin-right: 250px;
-    text-align: right;
-  }
-  .butst button {
-    background-color: purple;
-    font-size: 25px;
-    width: 350px;
-    color: white;
-    margin-right: 500px;
-    text-align: right;
-  }
-  
-  .coll {
-    justify-content: center;
-    display: flex;
-    margin-top: 10px;
-  }
-  .coll {
-    justify-content: center;
-    display: flex;
-    margin-top: 10px;
-  }
-  footer {
-    margin-top: auto;
-  }
-  .contai {
-    width: 100%;
-    height: 100px;
-  }
-  .box {
-    background-color: rgba(165, 89, 209, 0.779);
-    display: flex;
-    justify-content: center;
-  }
-  .box > img {
-    padding: 20px 50px 0px 50px;
-    width: 50px;
-  }
-  .box p {
-    padding: 5px 38px 20px 38px;
-    font-size: 20px;
-  }
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: #91068f;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation > li {
+  list-style-type: none;
+  padding: 0px 20px 0px 0px;
+  font-size: 30px;
+  color: white;
+}
+.navigation > li > img {
+  padding-left: 30px;
+  color: white;
+  width: 50px;
+  height: 40px;
+}
+.icon {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-right: 30px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.beli {
+  color: rgba(0, 0, 0, 0.516);
+  margin: 30px auto;
+  width: 900px;
+  height: 120px;
+}
+.per {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ti {
+  font-size: 15px;
+}
+.simpan {
+  text-align: right;
+  margin-right: 300px;
+}
+.simpan button {
+  width: 100px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: #91068f;
+  color: white;
+  border: 1px solid purple;
+  border-radius: 5px;
+}
+.kolom {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.baris {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+.bariss {
+  display: flex;
+  margin-bottom: 200px;
+  margin-top: 5px;
+  justify-content: center;
+}
+.one button {
+  background-color: purple;
+  font-size: 20px;
+  width: 100px;
+  border: 1px solid purple;
+  color: white;
+}
+.two {
+  margin-left: 20px;
+}
+.two button {
+  background-color: purple;
+  font-size: 20px;
+  width: 250px;
+  border: none;
+  color: white;
+  border: 1px solid purple;
+}
+.three {
+  margin-left: 20px;
+}
+.three button {
+  background-color: purple;
+  font-size: 20px;
+  width: 510px;
+  border: none;
+  color: white;
+  border: 1px solid purple;
+}
+.satu button {
+  background-color: rgb(248, 195, 248);
+  font-size: 20px;
+  width: 100px;
+  border: 1px solid rgb(224, 198, 224);
+  color: black;
+}
+.dua {
+  margin-left: 20px;
+}
+.dua button {
+  text-align: left;
+  padding-left: 10px;
+  background-color: rgb(248, 195, 248);
+  font-size: 20px;
+  width: 250px;
+  border: none;
+  color: black;
+  border: 1px solid rgb(224, 198, 224);
+}
+.tiga {
+  margin-left: 20px;
+}
+.tiga button {
+  text-align: left;
+  padding-left: 10px;
+  background-color: rgb(248, 195, 248);
+  font-size: 20px;
+  width: 345px;
+  border: none;
+  color: black;
+  border: 1px solid rgb(224, 198, 224);
+}
+.empat {
+  margin-left: 20px;
+}
+.empat button {
+  font-size: 20px;
+  width: 100px;
+  border: none;
+  color: purple;
+  border: 1px solid white;
+}
+.lima {
+  margin-left: 20px;
+}
+.lima img {
+  width: 25px;
+  height: 25px;
+}
+footer {
+  margin-top: auto;
+}
+.contain {
+  width: 100%;
+  height: 100px;
+}
+.box {
+  background-color: rgba(165, 89, 209, 0.779);
+  display: flex;
+  justify-content: center;
+}
+.box > img {
+  padding: 20px 50px 0px 50px;
+  width: 50px;
+}
+.box p {
+  padding: 5px 38px 20px 38px;
+  font-size: 20px;
+}

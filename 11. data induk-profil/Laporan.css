@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
 }
-main{
-background-color: #f5e8f4;
+main {
+  background-color: #f5e8f4;
 }
 .wrapper {
   display: flex;
@@ -23,7 +23,7 @@ background-color: #f5e8f4;
   color: white;
   font-size: 30px;
   padding-left: 20px;
-}s
+}
 .sl {
   color: white;
   font-size: 30px;
@@ -112,7 +112,6 @@ body {
   border: 1px solid rgb(197, 181, 206);
   height: 40px;
   border-top: 1px solid purple;
-
 }
 .bus button {
   background-color: rgb(113, 4, 113);
@@ -229,23 +228,23 @@ footer {
 
 .logo {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -5%;
-    margin-bottom: -50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5%;
+  margin-bottom: -50px;
 }
 .logo > img {
   padding: 20px 50px 0px 50px;
   width: 15rem;
 }
 
-.l{
+.l {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.l button{
+.l button {
   background-color: #91068f;
   color: white;
   border: 1px solid #91068f;
