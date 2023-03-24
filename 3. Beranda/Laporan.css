@@ -83,7 +83,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-.box > img {
+.box > a > img {
   padding: 20px 50px 0px 50px;
   width: 50px;
 }
