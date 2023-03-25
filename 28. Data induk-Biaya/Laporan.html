@@ -24,17 +24,124 @@
     <main>
       <div class="beli">
         <div class="ti">Tipe Biaya</div>
-        <div class="per">
+        <div class="perss">
           <p>Pilih Tipe Biaya</p>
-          <ion-icon name="caret-down-outline"></ion-icon>
+          <a href="#" class="button" id="button"
+            ><ion-icon name="caret-down-outline"></ion-icon
+          ></a>
         </div>
         <hr />
+        <div class="popup">
+          <div class="popup-content">
+            <div class="pers">
+              <p>PEMBELIAN</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Bahan Baku</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Bahan Bakar</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Barang Dagang</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Bahan Pembantu</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Bahan Pembungkus</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Barang Lain</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="pers">
+              <p>BIAYA USAHA</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Barang Gaji Pegawai</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Honorarium</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Komisi Penjualan</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Sewa Tempat</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Perlengkapan Usaha</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Perawatan Bangunan</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Perawatan Peralatan</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Administrasi</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+            <div class="per">
+              <p>Telepon-Listrik & Air</p>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <hr />
+          </div>
+        </div>
         <div class="ti">Kategori</div>
         <div class="per">
           <p>Pilih Kategori</p>
-          <ion-icon name="caret-down-outline"></ion-icon>
+          <a href="#" class="button" id="buttons"
+            ><ion-icon name="caret-down-outline"></ion-icon
+          ></a>
         </div>
         <hr />
+      </div>
+      <div class="popup2">
+        <div class="popupcontent">
+          <div class="pembelian">
+            <p>Pembelian</p>
+            <ion-icon name="ellipse-outline"></ion-icon>
+          </div>
+          <hr />
+          <div class="pembelian">
+            <p>Biaya Usaha</p>
+            <ion-icon name="ellipse-outline"></ion-icon>
+          </div>
+          <hr />
+        </div>
       </div>
       <div class="simpan">
         <button type="button">SIMPAN</button>
@@ -209,5 +316,15 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+      document.getElementById("button").addEventListener("click", function () {
+        document.querySelector(".popup").style.display = "flex";
+      });
+    </script>
+    <script>
+      document.getElementById("buttons").addEventListener("click", function () {
+        document.querySelector(".popup2").style.display = "flex";
+      });
+    </script>
   </body>
 </html>

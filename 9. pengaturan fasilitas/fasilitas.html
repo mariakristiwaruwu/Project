@@ -32,7 +32,16 @@
         <div class="stok"><p>Stok Bahan</p></div>
       </div>
       <div class="butt">
-        <button type="button">SIMPAN</button>
+        <a href="#" class="button" id="button">SIMPAN</a>
+      </div>
+      <div class="popup">
+        <div class="popup-content">
+          <p>PIKAT Kantin ingin mengaktifkan Bluetooth</p>
+          <div class="tlk">
+            <div class="to">TOLAK</div>
+            <div class="iz">IZINKAN</div>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
@@ -49,5 +58,10 @@
         </div>
       </div>
     </footer>
+    <script>
+      document.getElementById("button").addEventListener("click", function () {
+        document.querySelector(".popup").style.display = "flex";
+      });
+    </script>
   </body>
 </html>
