@@ -36,18 +36,235 @@
   width: 400px;
   box-shadow: 1px 10px 0px rgba(56, 51, 59, 0.142);
 }
-.bts button {
-  height: 50px;
-  width: 400px;
-  margin-top: 20px;
+.bts {
+  margin-top: 30px;
   margin-left: 50px;
+}
+.bts a {
+  padding: 10px 160px;
+  color: white;
   background-color: rgb(164, 89, 209);
   font-size: 25px;
-  border: none;
   border-radius: 50px;
-  color: white;
+  text-decoration: none;
   box-shadow: 1px 10px 0px rgba(56, 51, 59, 0.142);
 }
+.popup {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  height: 600px;
+  width: 1200px;
+  background: #fff;
+  padding: 20px;
+}
+.kembali {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.tanda img {
+  padding-left: 30px;
+  color: white;
+  width: 50px;
+  height: 40px;
+}
+.kembali2 p {
+  color: black;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.cetak {
+  margin-top: 20px;
+  text-align: center;
+}
+.cetak button {
+  background-color: #91068f;
+  font-size: 25px;
+  padding: 15px 30px;
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.bl {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.baris2 {
+  margin-top: 10px;
+}
+.transaksi {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.tanggal {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+}
+.satu button {
+  padding-left: 10px;
+  text-align: left;
+  width: 300px;
+  background-color: #91068f;
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+.dua button {
+  padding-right: 10px;
+  margin-left: 30px;
+  text-align: right;
+  width: 700px;
+  background-color: white;
+  font-size: 15px;
+  color: black;
+  border: none;
+}
+.baris3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.produk1 button {
+  text-align: center;
+  width: 400px;
+  background-color: #6a0368;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.qty button {
+  margin-left: 10px;
+  text-align: center;
+  width: 100px;
+  background-color: #6a0368;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.harga button {
+  margin-left: 10px;
+  text-align: center;
+  width: 200px;
+  background-color: #6a0368;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.sub button {
+  margin-left: 10px;
+  text-align: center;
+  width: 300px;
+  background-color: #6a0368;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.baris4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.produk2 button {
+  padding-left: 10px;
+  text-align: left;
+  width: 400px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+.qty1 button {
+  margin-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  width: 100px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+.harga1 button {
+  margin-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  width: 200px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+.sub1 button {
+  margin-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  width: 300px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+hr {
+  margin: 25px auto;
+  width: 1030px;
+}
+.baris7 {
+  margin: auto;
+  width: 1040px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.523);
+}
+.baris5 {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.produk3 button {
+  padding-right: 10px;
+  text-align: right;
+  width: 725px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+.qty2 button {
+  margin-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  width: 300px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+.baris6 {
+  display: flex;
+  justify-content: center;
+}
+.produk4 button {
+  padding-right: 10px;
+  text-align: right;
+  width: 725px;
+  background-color: #91068f;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
 .wrappers {
   display: flex;
   align-items: center;
@@ -185,6 +402,12 @@ body {
   display: flex;
   margin-top: 5px;
   justify-content: center;
+}
+.barduk {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .busat button {
   padding-left: 10px;

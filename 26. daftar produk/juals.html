@@ -26,7 +26,106 @@
           <button type="button">Total Rp. 0</button>
         </div>
         <div class="bts">
-          <button type="button">CETAK</button>
+          <a href="#" class="button" id="button">CETAK</a>
+        </div>
+      </div>
+      <div class="popup">
+        <div class="popup-content">
+          <div class="kembali">
+            <div class="tanda">
+              <img src="../Icon Pikat Kantin/Icon Panah.png" />
+            </div>
+            <div class="kembali2">
+              <p>KEMBALI</p>
+            </div>
+          </div>
+          <div class="cetak">
+            <button type="button">CETAK</button>
+          </div>
+          <div class="bl">
+            <p>Kantin Sekolah Swasta Katolik</p>
+            <p>Jl. Imam Bonjol no 7 medan</p>
+            <p>061-12345678</p>
+          </div>
+          <div class="baris2">
+            <div class="transaksi">
+              <div class="satu">
+                <button type="button">No. Transaksi :</button>
+              </div>
+              <div class="dua">
+                <button type="button">100040</button>
+              </div>
+            </div>
+            <div class="tanggal">
+              <div class="satu">
+                <button type="button">Tanggal :</button>
+              </div>
+              <div class="dua">
+                <button type="button">14-Nov-2022</button>
+              </div>
+            </div>
+          </div>
+          <div class="baris3">
+            <div class="produk1">
+              <button type="button">Produk</button>
+            </div>
+            <div class="qty">
+              <button type="button">Qty</button>
+            </div>
+            <div class="harga">
+              <button type="button">Harga</button>
+            </div>
+            <div class="sub">
+              <button type="button">Sub Total</button>
+            </div>
+          </div>
+          <div class="baris4">
+            <div class="produk2">
+              <button type="button">Nasi Goreng</button>
+            </div>
+            <div class="qty1">
+              <button type="button">20</button>
+            </div>
+            <div class="harga1">
+              <button type="button">15,000</button>
+            </div>
+            <div class="sub1">
+              <button type="button">300,000</button>
+            </div>
+          </div>
+          <div class="baris4">
+            <div class="produk2">
+              <button type="button">Donat</button>
+            </div>
+            <div class="qty1">
+              <button type="button">50</button>
+            </div>
+            <div class="harga1">
+              <button type="button">5,000</button>
+            </div>
+            <div class="sub1">
+              <button type="button">200,000</button>
+            </div>
+          </div>
+          <hr />
+          <div class="baris7">
+            <div class="baris5">
+              <div class="produk3">
+                <button type="button">Jumlah :</button>
+              </div>
+              <div class="qty2">
+                <button type="button">500,000</button>
+              </div>
+            </div>
+            <div class="baris6">
+              <div class="produk4">
+                <button type="button">Total :</button>
+              </div>
+              <div class="qty2">
+                <button type="button">500,000</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="cont">
@@ -37,7 +136,7 @@
         <div class="wrappers">
           <div class="produk">14-Nov-2022</div>
           <div class="one">
-            <ion-icon name="calendar-outline"></ion-icon>
+            <!-- <ion-icon name="calendar-outline"></ion-icon> -->
           </div>
         </div>
         <div class="wrappersr">
@@ -95,7 +194,7 @@
           <button type="button">15,000</button>
         </div>
       </div>
-      <div class="bardu">
+      <div class="barduk">
         <div class="busat">
           <button type="button">Jus Jeruk</button>
         </div>
@@ -133,5 +232,14 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+      document.getElementById("button").addEventListener("click", function () {
+        document.querySelector(".popup").style.display = "flex";
+      });
+
+      document.querySelector(".tanda").addEventListener("click", function () {
+        document.querySelector(".popup").style.display = "none";
+      });
+    </script>
   </body>
 </html>
