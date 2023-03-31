@@ -73,15 +73,13 @@ body {
   text-align: left;
   padding-left: 10px;
 }
-.but button {
-  background-color: rgb(191, 114, 235);
-  font-size: 20px;
+.but input {
+  height: 25px;
+  margin-left: 50px;
   width: 500px;
   color: black;
   border: 1px solid rgb(193, 109, 241);
   text-align: right;
-  margin-left: 50px;
-  padding-right: 10px;
 }
 .buti button {
   background-color: white;
@@ -92,6 +90,13 @@ body {
   text-align: right;
   margin-left: 50px;
   padding-right: 10px;
+}
+select {
+  margin-left: 50px;
+  width: 500px;
+  text-align: right;
+  color: gray;
+  height: 25px;
 }
 .butii button {
   background-color: rgb(191, 114, 235);

@@ -42,7 +42,8 @@
   align-items: center;
 }
 .popup-content {
-  padding: 0 50px;
+  width: 200px;
+  padding: 0 20px;
   background: #fff;
 }
 .popup2 {
@@ -55,33 +56,9 @@
   top: 0;
 }
 .popupcontent {
+  padding: 0 20px;
   width: 200px;
-  padding: 30px 50px;
   background: #fff;
-}
-.pembelian {
-  display: flex;
-  justify-content: space-between;
-}
-.pembelian ion-icon {
-  padding-right: 10px;
-}
-.per {
-  display: flex;
-  justify-content: space-between;
-}
-.per ion-icon {
-  padding-right: 10px;
-}
-.pers {
-  display: flex;
-  justify-content: space-between;
-}
-.pers p {
-  color: rgb(237, 104, 237);
-}
-.pers ion-icon {
-  padding-right: 10px;
 }
 body {
   display: flex;
@@ -94,6 +71,11 @@ body {
   height: 120px;
 }
 .perss {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.per {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;

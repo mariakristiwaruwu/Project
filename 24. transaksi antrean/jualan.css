@@ -87,9 +87,8 @@ body {
 .produk {
   font-size: 20px;
 }
-.one ion-icon {
-  padding-top: 3px;
-  font-size: 25px;
+.one input {
+  font-size: 18px;
 }
 .co {
   margin-bottom: 50px;
