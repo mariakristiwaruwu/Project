@@ -124,11 +124,9 @@ hr {
   margin-left: 50px;
   text-align: right;
 }
-.butst button {
-  background-color: purple;
-  font-size: 25px;
+.butst input {
+  font-size: 20px;
   width: 350px;
-  color: white;
   margin-left: 50px;
   text-align: right;
 }

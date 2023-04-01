@@ -166,14 +166,11 @@ body {
   margin-left: 50px;
   padding-left: 10px;
 }
-.butst button {
-  background-color: purple;
-  font-size: 25px;
+.butst input {
+  font-size: 20px;
   width: 300px;
-  color: white;
   margin-left: 50px;
   text-align: right;
-  padding-right: 10px;
 }
 footer {
   margin-top: auto;

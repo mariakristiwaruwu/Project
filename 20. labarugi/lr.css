@@ -88,14 +88,11 @@ body {
 .but {
   margin-left: 50px;
 }
-.but button {
-  background-color: white;
+.but input {
   font-size: 20px;
   width: 500px;
-  color: black;
   border: 1px solid rgb(17, 1, 27);
   text-align: right;
-  padding-right: 10px;
 }
 .rinci {
   margin-top: 50px;
@@ -139,14 +136,10 @@ hr {
 .juals {
   margin-left: 50px;
 }
-.juals button {
-  background-color: rgb(194, 8, 194);
+.juals input {
   font-size: 20px;
   width: 500px;
-  color: black;
-  border: 1px solid rgb(17, 1, 27);
   text-align: right;
-  padding-right: 10px;
 }
 .cok {
   margin-bottom: 100px;
